@@ -196,8 +196,7 @@ def date_diff(date1, date2):
 
 
 def cargar_dataframe():
-    url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrEpOBKtTnticMTM5BSb2MbsMpkU9hkaAVIjNhUz" \
-          "-cWbMEvAINexTz7aL1ql0rfYGBcT0PQxh88MyC/pubhtml?gid=74737359&single=true "
+    url = ""
 
     # Se lee la página web, el argumento header=1 indica que el nombre de las columnas está en la segunda fila
     # El encoding="UTF-8" asegura que se reconozca los acentos y la ñ
